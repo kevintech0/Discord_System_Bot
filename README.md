@@ -1,9 +1,8 @@
-# Nexode Discord Bot
+# Discord System Bot
 
 A feature-rich Discord bot built with Discord.js v14, featuring ticket management, giveaways, invoicing, and role management systems.
 
 ## Table of Contents
-
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Configuration](#configuration)
@@ -17,7 +16,6 @@ A feature-rich Discord bot built with Discord.js v14, featuring ticket managemen
 - [License](#license)
 
 ## Requirements
-
 Before you begin, ensure you have:
 
 - **Node.js** v16.0.0 or higher ([Download](https://nodejs.org/))
@@ -31,7 +29,7 @@ Before you begin, ensure you have:
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/nexode-bot.git
+git clone https://github.com/kevintech0/Discord_System_Bot.git
 cd nexode-bot
 ```
 
@@ -258,7 +256,7 @@ Press `Ctrl + C` in the terminal to stop the bot.
 ## Project Structure
 
 ```
-nexode-bot/
+System/
 ├── src/
 │   ├── Bot.js                 # Main bot entry point
 │   ├── Config.js              # Configuration (uses .env)
@@ -289,7 +287,6 @@ nexode-bot/
 ```
 
 ## Troubleshooting
-
 ### Bot Won't Start
 
 **Error: "Cannot find module 'discord.js'"**

@@ -30,7 +30,7 @@ Before you begin, ensure you have:
 
 ```bash
 git clone https://github.com/kevintech0/Discord_System_Bot.git
-cd nexode-bot
+cd System_Bot
 ```
 
 ### Step 2: Install Dependencies

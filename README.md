@@ -64,7 +64,7 @@ Follow these steps to create and configure your Discord bot:
 #### 1. Create a Discord Application
 
 1. Go to [Discord Developer Portal](https://discord.com/developers/applications)
-2. Click "New Application" and give it a name (e.g., "Nexode Bot")
+2. Click "New Application" and give it a name (e.g., "System Bot")
 3. Navigate to the "Bot" tab on the left
 4. Click "Add Bot"
 
@@ -180,11 +180,11 @@ The bot uses MongoDB for persistent data storage (tickets, invoices, giveaways, 
 6. Click "Connect" and select "Connect Your Application"
 7. Copy the connection string
 8. Replace `<username>` and `<password>` with your database credentials
-9. Replace `<mydatabase>` with your database name (e.g., "nexode-bot")
+9. Replace `<mydatabase>` with your database name (e.g., "system-bot")
 10. Add this to your `.env`:
 
 ```env
-MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/nexode-bot
+MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/system-bot
 ```
 
 #### Option 2: Local MongoDB
@@ -196,7 +196,7 @@ If you want to run MongoDB locally:
 3. In your `.env`, use:
 
 ```env
-MONGODB_URI=mongodb://localhost:27017/nexode-bot
+MONGODB_URI=mongodb://localhost:27017/
 ```
 
 **Note:** The bot will automatically create the required collections in MongoDB.
